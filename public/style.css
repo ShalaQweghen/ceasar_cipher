@@ -1,0 +1,49 @@
+body {
+	color: silver;
+	background: transparent url(/images/ceasar_1.jpg) no-repeat 80% 80% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	-webkit-background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: slategrey;
+}
+
+form {
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+
+input {
+	width: 100px;
+}
+
+textarea {
+	width: 150px;
+}
+
+input, textarea {
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: gainsboro;
+	display: block;
+}
+
+p {
+	text-align: center;
+	margin-top: 250px;
+	font-size: 25px;
+}
+
+a {
+	text-align: center;
+	color: darkred;
+    display: block;
+    margin: 0 auto;
+	text-decoration: none;
+}
