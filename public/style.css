@@ -7,13 +7,15 @@ body {
  	-webkit-background-size: cover;
 }
 
-h1 {
+h1, form, p, a {
 	text-align: center;
+}
+
+h1 {
 	color: slategrey;
 }
 
 form {
-	text-align: center;
 	width: 400px;
 	margin: auto;
 }
@@ -35,13 +37,11 @@ input, textarea {
 }
 
 p {
-	text-align: center;
 	margin-top: 250px;
 	font-size: 25px;
 }
 
 a {
-	text-align: center;
 	color: darkred;
     display: block;
     margin: 0 auto;
